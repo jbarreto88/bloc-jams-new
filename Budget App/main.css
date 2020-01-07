@@ -1,0 +1,72 @@
+.budget-feedback,
+.expense-feedback {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  display: none;
+}
+
+#budget-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#budget-form-container input {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+
+#budget-info,
+#expense-info,
+#balance-info {
+  text-align: center;
+}
+
+#overview {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+#expense-form-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#expense-form-container input {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+
+.expense {
+  display: flex;
+  justify-content: center;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: .5;
+  font-size: 25px;
+}
+
+.expense-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.expense-icons a {
+  margin-right: 10px;
+}
+
+.showItem {
+  display: block;
+}
