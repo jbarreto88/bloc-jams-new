@@ -1,5 +1,6 @@
 body.album {
-  background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
+  /* background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg); */
+  background-color: #1D1AB2;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -36,7 +37,7 @@ body.album {
 }
 
 .album-view-song-list {
-  width: 90%;
+  width: 80%;
   margin: 1.5rem auto;
   font-weight: 300;
   font-size: 0.75em;
